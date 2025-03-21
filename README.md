@@ -46,6 +46,9 @@ Custom singular tests (like future dates or null revenue)
 Airflow DAG to schedule and orchestrate everything daily
 Modular, extensible, and ready for production pipelines
 
+![Raw Data](https://github.com/user-attachments/assets/3eb69ede-7926-4ae6-bed2-1ae68462dc29)
+
+
 ## 👋 Author
 #### Siddhant Mene
 🎓 Grad Student @ UT Dallas • 📊 Product & Data Enthusiast
