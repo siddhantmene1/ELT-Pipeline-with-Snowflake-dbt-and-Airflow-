@@ -15,13 +15,6 @@ A production-ready ELT (Extract, Load, Transform) pipeline built using modern da
 
 ---
 
-## 📁 Project Structure
-
-elt-pipeline/ ├── dags/ # Airflow DAGs │ └── dbt_dag.py ├── models/ # dbt models (staging, marts) │ ├── staging/ │ ├── marts/ │ └── generic_tests.yml ├── macros/ # dbt macros │ └── pricing.sql ├── tests/ # Custom SQL tests for dbt ├── Dockerfile # Docker setup ├── requirements.txt # Python dependencies ├── README.md # You're here! └── .gitignore # Ignore compiled and temp files
-
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 🧱 1. Clone the Repository
@@ -39,12 +32,12 @@ Use JSON in the “Extra” field:
 ### 📄 6. Generate and View dbt Docs
 ### 📊 7. DAG Visualization in Airflow
 ### 🧠 Features
-Clean separation of staging, intermediate, and fact models
-Built-in dbt tests for accuracy and data quality
-Reusable macros (like discounted_amount)
-Custom singular tests (like future dates or null revenue)
-Airflow DAG to schedule and orchestrate everything daily
-Modular, extensible, and ready for production pipelines
+- Clean separation of staging, intermediate, and fact models
+- Built-in dbt tests for accuracy and data quality
+- Reusable macros (like discounted_amount)
+- Custom singular tests (like future dates or null revenue)
+- Airflow DAG to schedule and orchestrate everything daily
+- Modular, extensible, and ready for production pipelines
 
 ![Raw Data](https://github.com/user-attachments/assets/3eb69ede-7926-4ae6-bed2-1ae68462dc29)
 
